@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<title>Adil El Morghady -Login</title>
+
+    <div class="login1">
+
+    <div class="col-7">
+<br>
+      <div class="card">
+
+     <div class='col-6 offset-3'>
+<br>
+          <h3>Log in</h3>
+          <form method="post" novalidate>
+            {% csrf_token %}
+            {{ form|crispy }}
+            <br>
+            <button type="submit" class="btn btn-primary">Log in</button>
+          </form>
+    </div>
+</div>
+</div>
+      </div>
+
+{% endblock %}
+
+
+
+
+

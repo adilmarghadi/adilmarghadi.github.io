@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<title>Adil El Morghady -About</title>
+
+
+<div class="padd">
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+
+<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/adil.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Adil!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Hwo Am I ?</h4>
+					<hr>
+					<br>My Name is Adil, a software engineering and Student in a Computer Science</br> <br> I'm interested in new technologies</br><br> I have Experience working in different technologies.
+					</br>
+<br>
+					<ul class="social-links">
+			<li><a href="https://www.facebook.com/adil.mks.52459"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+						<li><a href="https://www.instagram.com/adilmarghadi/"><img class="social" src="{% static 'images/instagram.png' %}"></a></li>
+						<li><a href="https://twitter.com/ADIL96380247"><img class="social" src="{% static 'images/twitter.png' %}"></a></li>
+						<li><a href="https://www.linkedin.com/in/adil-el-morghay-5892a8188/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+					</ul>
+
+
+				</div>
+			</div>
+		</div>
+	<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Full stack developer from the fronted to the Backend Developer.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Skills</h5>
+					<hr>
+					<p>Python, Django, Flask, HTML/CSS, JavaScript/Jquery/Bootstrap, C, C++, JAva, JavaEE, Node JS, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<br>
+	</div>
+</div>
+{% endblock %}
+
